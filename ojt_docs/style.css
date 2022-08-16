@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.fixed{
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	background-color: #fff;
+	width: 100%;
+	padding: 10px 20px;
+}
+
+.fixed h1{
+	margin-bottom: 20px;
+}
+
+.container-fluid{
+	display: flex;
+	justify-content: space-between;
+	width: 98%;
+}
+
+.side{
+	margin-top: 90px;
+ 	padding: 0;
+  	width: 250px;
+	position: fixed;
+  	height: 100%;
+  	overflow: auto;
+}
+
+.btn{
+	padding: 8px 30px;
+}
+
+.main{
+	width: 80%;
+	margin-left: 260px;
+  	padding: 1px 16px;
+	overflow-x: hidden;
+}
+
+.input-group{
+	width: 60%;
+}
+
+.mt-0{
+	margin-top: 140px !important;
+}
